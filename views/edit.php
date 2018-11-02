@@ -13,8 +13,10 @@
                 <?php endif; ?>
             </div>
             <input type="submit" value="Edit article" class="btn btn-primary">
+            <a href="<?= ROOT ?>/view/<?= $article['id'] ?>" class="btn btn-outline-primary">View article</a>
         </form>
-        <a href="<?= ROOT ?>/view/<?= $article['id'] ?>">Назад</a>
-        <a href="<?= ROOT ?>" class="d-inline-block mt-3">Return to Home Page</a>
+        <p class="mt-4">
+            <a href="<?= ROOT ?>">Return to Home Page</a>
+        </p>
     </div>
 </div>

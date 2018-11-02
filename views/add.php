@@ -14,5 +14,8 @@
             </div>
             <input type="submit" value="Add article" class="btn btn-primary">
         </form>
+        <p class="mt-4">
+            <a href="<?= ROOT ?>">Return to Home Page</a>
+        </p>
     </div>
 </div>
