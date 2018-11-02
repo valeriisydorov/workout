@@ -15,6 +15,6 @@
             <input type="submit" value="Edit article" class="btn btn-primary">
         </form>
         <a href="<?= ROOT ?>/view/<?= $article['id'] ?>">Назад</a>
-        <a href="<?= ROOT ?>" class="d-inline-block mt-3">На главную</a>
+        <a href="<?= ROOT ?>" class="d-inline-block mt-3">Return to Home Page</a>
     </div>
 </div>

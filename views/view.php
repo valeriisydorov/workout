@@ -5,4 +5,4 @@
 <?php if (is_auth()): ?>
     <a href="<?= ROOT ?>/edit/<?= $article['id'] ?>">Изменить</a>
 <?php endif; ?>
-<a href="<?= ROOT ?>">На главную</a>
+<a href="<?= ROOT ?>">Return to Home Page</a>

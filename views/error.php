@@ -1,2 +1,4 @@
 <h1>404</h1>
-<a href="<?= ROOT ?>">На главную</a>
+<p>
+    <a href="<?= ROOT ?>">Return to Home Page</a>
+</p>
