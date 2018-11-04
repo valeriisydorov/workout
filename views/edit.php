@@ -12,6 +12,11 @@
                     <small class="form-text text-danger"><?= $msg ?></small>
                 <?php endif; ?>
             </div>
+            <div class="form-group form-check">
+                <input type="checkbox"
+                       name="status" <?= $article_status == 1 ? 'checked=\"checked\"' : ''; ?> class="form-check-input">
+                <label class="form-check-label">Show article</label>
+            </div>
             <input type="submit" value="Edit article" class="btn btn-primary">
             <a href="<?= ROOT ?>/view/<?= $article['id'] ?>" class="btn btn-outline-primary">View article</a>
         </form>

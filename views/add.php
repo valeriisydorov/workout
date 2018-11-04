@@ -12,6 +12,10 @@
                     <small class="form-text text-danger"><?= nl2br($msg) ?></small>
                 <?php endif; ?>
             </div>
+            <div class="form-group form-check">
+                <input type="checkbox" name="status" class="form-check-input">
+                <label class="form-check-label">Show article</label>
+            </div>
             <input type="submit" value="Add article" class="btn btn-primary">
         </form>
         <p class="mt-4">
