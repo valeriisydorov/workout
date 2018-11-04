@@ -7,8 +7,10 @@
 <?php foreach ($articles as $article): ?>
     <?php if (is_auth() || $article['status'] == 1): ?>
         <div class="mb-4">
-            <time><?= date('j F Y', strtotime($article['date'])) ?></time>
-            <h2><?= $article['title'] ?></h2>
+            <time class="text-secondary">
+                <i><?= date('j F Y', strtotime($article['date'])) ?></i>
+            </time>
+            <h2 class="mb-3"><?= $article['title'] ?></h2>
             <a href="<?= ROOT ?>/view/<?= $article['id'] ?>" class="btn btn-sm btn-outline-primary">Read more</a>
             <?php if (is_auth()): ?>
                 <a href="<?= ROOT ?>/edit/<?= $article['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
