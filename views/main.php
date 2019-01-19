@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark flex-md-nowrap mb-4 shadow">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="<?= ROOT ?>">My Workout</a>
+        <a class="navbar-brand col-sm-3 col-md-2 col-6 mr-0" href="<?= ROOT ?>">My Workout</a>
         <ul class="navbar-nav px-3 ml-auto">
             <li class="nav-item text-nowrap">
                 <?php if (!is_auth()): ?>
