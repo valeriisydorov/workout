@@ -4,7 +4,7 @@ function db_connect() {
     static $db;
 
     if ($db === null) {
-        $db = new PDO('mysql:host=localhost;dbname=workout', 'valerii', 'Hv1levka-4m');
+        $db = new PDO('mysql:host=localhost;dbname=workout', 'root', '');
         $db->exec('SET NAMES UTF8');
     }
 
